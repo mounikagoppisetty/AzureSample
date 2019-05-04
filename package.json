@@ -1,0 +1,22 @@
+{
+  "name": "expresssample",
+  "version": "1.0.0",
+  "description": "api for client",
+  "main": "sample.js",
+  "scripts": {
+    "start": "node connect.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mounika",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2"
+  },
+  "engines": {
+    "node": ">=8.11.0",
+    "npm": ">=5.6.0"
+  }
+}
