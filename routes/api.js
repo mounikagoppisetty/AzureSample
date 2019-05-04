@@ -7,13 +7,13 @@ router.get('/carriers',(req,resp)=>{
 });
 
 router.post('/carriers',(req,res)=>{
-res.post({type:"POST"});
+res.send({type:"POST"});
 });
 
 
 //to update an existing carrier in db
 router.put('/carriers/:id',(req,res)=>{
-    console.log("id:"+id);
+    console.log("id:"+req.params.id);
     console.log(req.body);
 
     res.send({type:"PUT"});
